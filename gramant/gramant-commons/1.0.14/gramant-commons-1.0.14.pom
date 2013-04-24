@@ -1,0 +1,19 @@
+<project xmlns='http://maven.apache.org/POM/4.0.0' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xsi:schemaLocation='http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd'>
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>gramant</groupId>
+  <artifactId>gramant-commons</artifactId>
+  <packaging>zip</packaging>
+  <version>1.0.14</version>
+  <name>Internal utilities and UI.</name>
+  <description>\
+All sort of shared UI things for Gramant projects based on Grails.
+</description>
+  <url>https://confluence.gramant.ru/display/PRJ/Gramant+Commons</url>
+  <developers>
+    <developer>
+      <name>Serge P. Nekoval</name>
+      <email>nekoval@gramant.ru</email>
+    </developer>
+  </developers>
+  <dependencies />
+</project>

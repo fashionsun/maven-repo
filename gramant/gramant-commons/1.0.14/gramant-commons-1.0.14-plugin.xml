@@ -1,0 +1,25 @@
+<plugin name='gramant-commons' version='1.0.14' grailsVersion='1.3.2 &gt; *'>
+  <author>Serge P. Nekoval</author>
+  <authorEmail>nekoval@gramant.ru</authorEmail>
+  <title>Internal utilities and UI.</title>
+  <description>\
+All sort of shared UI things for Gramant projects based on Grails.
+</description>
+  <documentation>https://confluence.gramant.ru/display/PRJ/Gramant+Commons</documentation>
+  <resources>
+    <resource>BuildConfig</resource>
+    <resource>Config</resource>
+    <resource>DataSource</resource>
+    <resource>UrlMappings</resource>
+    <resource>com.gramant.common.test.TestWidgetController</resource>
+    <resource>CommonsTagLib</resource>
+    <resource>CommonsUITagLib</resource>
+    <resource>CustomFormatTagLib</resource>
+    <resource>PlainTextCodec</resource>
+  </resources>
+  <dependencies>
+    <plugin name='core' version='1.1 &gt; *' />
+    <plugin name='converters' version='1.1 &gt; *' />
+  </dependencies>
+  <behavior />
+</plugin>
